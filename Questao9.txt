@@ -1,0 +1,8 @@
+-> x declarado como char: 
+4093, 4094, 4095
+-> x declarado como int:
+4094, 4096, 4098
+-> x declarado como float:
+4096, 4100, 4104
+-> x declarado como double:
+4100. 4108, 4116

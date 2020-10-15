@@ -1,0 +1,3 @@
+As expressões validas são a 1 (p = mat + 1;) e a 4 (x = (*mat)++;)
+A primeira expressão está correta pois é um ponteiro que recebe um endereco de memoria do mesmo tipo int, assim o ponteiro p aponta no segundo elemento do array mat.
+A quarta expressão está correta pois é uma variável inteira recebendo o valor do primeiro membro do vetor mat e depois incrementando este elemento.
