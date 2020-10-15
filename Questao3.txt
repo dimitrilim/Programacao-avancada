@@ -1,0 +1,7 @@
+As expressoes ilegais sao a 1,4,7,8.
+
+A primeira expressao é ilegal por que está atribuindo ao ponteiro o valor de uma variavel, o certo seria atribuir o endereco de memoriadesta variavel.
+A quarta expressao é ilegal por que está recuperando o valor do endereco de memoria de nenhum ponteiro, o ponteiro deveria está dentro do parenteses e nao fora dele.
+A setima expressao é ilegal pois está atribuindo a o ponteiro q o valor do ponteiro p.
+A oitava expressao é ilegal pois está resultando em um despejo de memoria, pois está sendo atribuido a variavel i uma soma de valores dos ponteiros p e q que nao existe, alem do incremento do valor do ponteiro p.
+
