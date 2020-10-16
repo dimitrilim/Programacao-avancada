@@ -1,0 +1,10 @@
+Os comandos válidos sao o 1,2,4,5 e 8, já os comandos inválidos sao o 3, 6 e 7.
+
+O comando 1 (aloha[2] = value;)  é válido pois esta mostrando que o terceiro elemento do vetor está sendo atribuido a variável value e tanto o vetor e a variável são do mesmo tipo de dado.
+O comando 2 (scanf("%f", &aloha);) é válido em que nesta parte de código está escaneando o vetor.
+O comando 3 (aloha = value";) é inválido por que tem uma aspa faltando na expressão e mesmo que tivesse as duas aspas entre a palavra value, essa expressão iria se tornar um char, e estariamos atribuindo a um vetor de numeros uma expressão literal.
+O comando 4(printf("%f", aloha);) é válido  em que ele está mostrando para o usuário o vetor.
+O comando 5 (coisas[4][4] = aloha[3];) é válido pois a matriz coisas na linha 4 e na coluna 4 está atribuindo este valor ao vetor aloha na posição 3.
+O comando 6 (coisas[5] = aloha;) é inválido por que a matriz coisas é uma matriz bidimensional, a sua coluna não está sendo especificada além de não especificar em qual posição vai ser atribuido no vetor aloha.
+O comando 7(pf = value;) é inválido por que value é uma variável e para um ponteiro acessar o seu endereço de memória precisaria colocar o (&) antes de value na expressão.
+O comando 8 (pf = aloha;) é valido pois diferente do caso anterior aloha é um vetor e não é preciso colocar o (&) pois o ponteiro irá apontar no primeiro elemento do vetor.
