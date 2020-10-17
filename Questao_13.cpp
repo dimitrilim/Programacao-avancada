@@ -10,7 +10,7 @@ void bubble_sort (float *, int n);
 printf("Quantas rodadas? ");
 scanf("%i", &rod);
 
-while (rod != 0){
+while (rod != 0 && rod > 0){
 printf("Quantos numeros? ");
 scanf("%i", &num);
 
