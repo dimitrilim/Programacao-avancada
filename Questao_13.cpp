@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main(void){
-int rod, num, i, b;
-float *p, v[num];
+int rod, num, i;
+float *p;
 
 void bubble_sort (float *, int n);
 
@@ -17,15 +17,20 @@ scanf("%i", &num);
 p = (float *) malloc(num *sizeof(float));
 
 for(i = 0; i < num; i++){
-printf("%i/%i: ", i+1 , num);
-scanf("%i",(p+i));
+    p[i] = i;
+}
+
+for(i = 0; i < num; i++){
+    printf("%i/%i: ", i+1 , num);
+    scanf("%f", &p[i]);
 } // for i
 
 bubble_sort (p, num);
 
-for(int j = 0; j < num; j++){
-printf("%.2f ", p[b]);
+for(i = 0; i < num; i++){
+    printf("%.2f ", p[i]);
 }
+
 printf("\n");
 free(p);
 rod--;
@@ -43,9 +48,9 @@ for (a = 0; a < n - 1; a++) {
     for (b = 0; b < n - 1; b++) {
 
         if (v[b] > v[b+1]) {
-        aux  = v[b+1];
-        v[b+1] = v[b];
-        v[b] = aux;
+            aux  = v[b+1];
+            v[b+1] = v[b];
+            v[b] = aux;
             } //if
         } //for b
     } // for a
